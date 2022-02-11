@@ -8,16 +8,19 @@ A sample component library made with React & Bit
     npm i -g @teambit/bvm   # install bvm
     bvm install   # use bvm to install bit
 ```
-2. Create component using this command:
+2. Clone the repo.
+3. Run `bit install`.
+4. Run `bit compile`.
+5. Create component using this command:
 ```bash
     bit create react ui/<component-name>
 ```
-3. For styling a component, create a `style.ts` file inside the component folder and use styled-components (See hello-world component for reference).
-4. Run the component using this command:
+6. For styling a component, create a `style.ts` file inside the component folder and use styled-components (See hello-world component for reference).
+7. Run the component using this command:
 ```bash
     bit start
 ```
-5. For installing 3rd party dependencies to component, execute this command:
+8. For installing 3rd party dependencies to component, execute this command:
 ```bash
     bit install <3rd-party-component>
 ```
