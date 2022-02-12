@@ -1,4 +1,4 @@
-# Team Forward FL Components
+# Forward FL Components
 
 A sample component library made with React & Bit
 
