@@ -10,8 +10,8 @@
 
 {
     "ui/hello-world": {
-        "scope": "",
-        "version": "0.0.4",
+        "scope": "forward.4ward",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/hello-world"
     },

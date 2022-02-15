@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "4ward",
+    "defaultScope": "forward.4ward",
     "defaultOwner": "ted123"
   },
   /**
