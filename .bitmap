@@ -11,13 +11,13 @@
 {
     "ui/hello-world": {
         "scope": "forward.4ward",
-        "version": "0.0.5",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/hello-world"
     },
     "ui/toaster": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/toaster"
     },

@@ -1,6 +1,7 @@
 # Forward FL Components
 
 A sample component library made with React & Bit
+https://bit.dev/forward/4ward
 
 ## Getting Started
 1. Install Bit using the following commands:
