@@ -1,5 +1,5 @@
-import React, { ReactNode, useEffect } from 'react'
-import { StyledButton } from './style'
+import React, { ReactNode, useEffect } from 'react';
+import { StyledButton } from './style';
 
 export type HelloWorldProps = {
   /**
@@ -12,9 +12,9 @@ export type HelloWorldProps = {
 export function HelloWorld({ children, text }: HelloWorldProps) {
   useEffect(() => {
     if (text) {
-      console.log(text)
+      console.log(text);
     }
-  }, [])
+  }, []);
 
   return (
     <StyledButton>

@@ -15,5 +15,11 @@
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/hello-world"
     },
+    "ui/toaster": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/toaster"
+    },
     "$schema-version": "14.9.0"
 }
