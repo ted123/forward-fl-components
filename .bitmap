@@ -15,6 +15,18 @@
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/hello-world"
     },
+    "ui/loader": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/loader"
+    },
+    "ui/pagination": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/pagination"
+    },
     "ui/toaster": {
         "scope": "forward.4ward",
         "version": "0.0.1",

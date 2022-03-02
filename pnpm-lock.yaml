@@ -65,6 +65,12 @@ importers:
   4ward/ui/hello-world:
     specifiers: {}
 
+  4ward/ui/loader:
+    specifiers: {}
+
+  4ward/ui/pagination:
+    specifiers: {}
+
   4ward/ui/toaster:
   4ward/ui/modal:
     specifiers: {}

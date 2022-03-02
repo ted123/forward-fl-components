@@ -1,0 +1,29 @@
+import { BasicPagination } from './pagination.composition';
+
+<!-- title -->
+# _Component_ `<Pagination>`
+<!-- /title -->
+
+<!-- props -->
+### Properties
+Name | Type | Optional | Description
+---- | ---- | -------- | -----------
+`handlePagination` | function that keeps track of the cuurent page|  | 
+`currentPage` | current page number|  | 
+`totalDataLength` | length of the data |  | 
+`maxPageLimit` | number of pages to be rendered|  | 
+`disabled` | disabled state of the pagination|  | 
+<!-- /props -->
+
+`<!-- transclude --><!-- /transclude -->`
+<!-- example -->
+### Basic Example
+``` html
+ <Pagination handlePagination={(currentPage) => handlePagination(currentPage)} totalDataLength={data.length} maxPageLimit={5} currentPage={1}/>
+```
+<!-- /example -->
+### Render hello world!
+
+```jsx live
+<BasicPagination />
+```
