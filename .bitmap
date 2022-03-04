@@ -21,5 +21,11 @@
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/toaster"
     },
+    "ui/modal": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/modal"
+    },
     "$schema-version": "14.9.0"
 }

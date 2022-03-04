@@ -66,6 +66,7 @@ importers:
     specifiers: {}
 
   4ward/ui/toaster:
+  4ward/ui/modal:
     specifiers: {}
 
   demo/envs/my-react:
