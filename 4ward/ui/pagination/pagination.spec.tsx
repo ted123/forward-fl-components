@@ -1288,6 +1288,7 @@ describe('initial test for paginator component', () => {
   });
   it('should go to the previous Page', () => {
     render(<Pagination
+      currentPage={1}
       handlePagination={handlePagination}
       totalDataLength={pageData.length}
       maxPageLimit={5}

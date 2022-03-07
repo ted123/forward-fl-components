@@ -16,14 +16,20 @@
         "rootDir": "4ward/ui/hello-world"
     },
     "ui/loader": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/loader"
     },
+    "ui/modal": {
+        "scope": "forward.4ward",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/modal"
+    },
     "ui/pagination": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/pagination"
     },
@@ -32,12 +38,6 @@
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/toaster"
-    },
-    "ui/modal": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "4ward/ui/modal"
     },
     "$schema-version": "14.9.0"
 }
