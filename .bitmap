@@ -33,6 +33,12 @@
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/pagination"
     },
+    "ui/popover": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/popover"
+    },
     "ui/toaster": {
         "scope": "forward.4ward",
         "version": "0.0.1",
