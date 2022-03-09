@@ -9,6 +9,12 @@
  */
 
 {
+    "ui/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/button"
+    },
     "ui/hello-world": {
         "scope": "forward.4ward",
         "version": "0.0.8",
