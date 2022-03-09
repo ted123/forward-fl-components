@@ -11,7 +11,9 @@ importers:
       '@teambit/eslint-config-bit-react': ~0.0.367
       '@teambit/harmony': 0.2.11
       '@teambit/react.templates.themes.theme': 0.0.4
+      '@testing-library/dom': 8.11.3
       '@testing-library/react': 12.0.0
+      '@testing-library/user-event': 13.5.0
       '@types/jest': ^26.0.0
       '@types/node': 12.20.4
       '@types/react': ^17.0.8
@@ -37,6 +39,7 @@ importers:
       '@teambit/eslint-config-bit-react': registry.npmjs.org/@teambit/eslint-config-bit-react/0.0.367_42c1a70dd5598d21f152f1cd353fd960
       '@teambit/harmony': registry.npmjs.org/@teambit/harmony/0.2.11
       '@teambit/react.templates.themes.theme': 0.0.4_28efb623cb9aaa0b90b285bfbaeaff3c
+      '@testing-library/dom': registry.npmjs.org/@testing-library/dom/8.11.3
       '@testing-library/react': registry.npmjs.org/@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2
       '@typescript-eslint/eslint-plugin': registry.npmjs.org/@typescript-eslint/eslint-plugin/4.29.3
       classnames: registry.npmjs.org/classnames/2.3.1
@@ -52,12 +55,16 @@ importers:
       styled-components: registry.npmjs.org/styled-components/5.3.3_react-dom@17.0.2+react@17.0.2
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
+      '@testing-library/user-event': registry.npmjs.org/@testing-library/user-event/13.5.0_@testing-library+dom@8.11.3
       '@types/jest': registry.npmjs.org/@types/jest/26.0.24
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/17.0.39
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.11
       '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.22
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
+
+  4ward/ui/button:
+    specifiers: {}
 
   4ward/ui/component-toaster:
     specifiers: {}
@@ -68,11 +75,22 @@ importers:
   4ward/ui/loader:
     specifiers: {}
 
+  4ward/ui/modal:
+    specifiers: {}
+
+  4ward/ui/multi-filter-list:
+    specifiers: {}
+
+  4ward/ui/multi-filter-list-item:
+    specifiers: {}
+
   4ward/ui/pagination:
     specifiers: {}
 
+  4ward/ui/popover:
+    specifiers: {}
+
   4ward/ui/toaster:
-  4ward/ui/modal:
     specifiers: {}
 
   demo/envs/my-react:
@@ -875,6 +893,19 @@ packages:
       react: registry.npmjs.org/react/17.0.2
       react-dom: registry.npmjs.org/react-dom/17.0.2_react@17.0.2
     dev: false
+
+  registry.npmjs.org/@testing-library/user-event/13.5.0_@testing-library+dom@8.11.3:
+    resolution: {integrity: sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.5.0.tgz}
+    id: registry.npmjs.org/@testing-library/user-event/13.5.0
+    name: '@testing-library/user-event'
+    version: 13.5.0
+    engines: {node: '>=10', npm: '>=6'}
+    peerDependencies:
+      '@testing-library/dom': '>=7.21.4'
+    dependencies:
+      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
+      '@testing-library/dom': registry.npmjs.org/@testing-library/dom/8.11.3
+    dev: true
 
   registry.npmjs.org/@types/aria-query/4.2.2:
     resolution: {integrity: sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/aria-query/-/aria-query-4.2.2.tgz}
