@@ -1,0 +1,43 @@
+---
+description: A MultiFilterList component.
+---
+
+import { MultiFilterList } from './multi-filter-list';
+import { MultiFilterListItem } from '@4ward/ui.multi-filter-list-item';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<MultiFilterList
+    label="Multi"
+    selected={values}
+    labelWeight="bold"
+    defaultSelectedText="None"
+    searchPlaceholder="Type here to filter"
+    onSelectChange={selectedValues => setValues(selectedValues)}
+>
+    {data.map(option => <MultiFilterListItem key={option.value} item={option}>{option.label}</MultiFilterListItem>)}
+</MultiFilterList>
+```
+
+### Render Multi-Filter List!
+
+```js live
+<MultiFilterList
+    label="Multi-Filter"
+    selected={[]}
+    labelWeight="bold"
+    defaultSelectedText="None"
+    searchPlaceholder="Type here to filter"
+    onSelectChange={() => {}}
+>
+    <MultiFilterListItem item={{
+        key: '1',
+        value: '1',
+        label: 'The little girl'
+        }}
+    >The little girl
+    </MultiFilterListItem>
+</MultiFilterList>
+```
