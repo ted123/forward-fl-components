@@ -21,6 +21,12 @@
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/hello-world"
     },
+    "ui/input-checkbox": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/input-checkbox"
+    },
     "ui/loader": {
         "scope": "forward.4ward",
         "version": "0.0.1",
