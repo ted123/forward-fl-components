@@ -34,14 +34,14 @@
         "rootDir": "4ward/ui/modal"
     },
     "ui/multi-filter-list": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/multi-filter-list"
     },
     "ui/multi-filter-list-item": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/multi-filter-list-item"
     },
