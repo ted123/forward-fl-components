@@ -9,6 +9,12 @@
  */
 
 {
+    "ui/accordion": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/accordion"
+    },
     "ui/button": {
         "scope": "forward.4ward",
         "version": "0.0.2",
