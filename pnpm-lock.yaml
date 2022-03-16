@@ -41,7 +41,7 @@ importers:
       '@teambit/react.templates.themes.theme': 0.0.4_28efb623cb9aaa0b90b285bfbaeaff3c
       '@testing-library/dom': registry.npmjs.org/@testing-library/dom/8.11.3
       '@testing-library/react': registry.npmjs.org/@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2
-      '@testing-library/user-event': registry.npmjs.org/@testing-library/user-event/13.5.0_@testing-library+dom@8.11.3
+      '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.22
       '@typescript-eslint/eslint-plugin': registry.npmjs.org/@typescript-eslint/eslint-plugin/4.29.3
       classnames: registry.npmjs.org/classnames/2.3.1
       core-js: registry.npmjs.org/core-js/3.21.0
@@ -56,11 +56,11 @@ importers:
       styled-components: registry.npmjs.org/styled-components/5.3.3_react-dom@17.0.2+react@17.0.2
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
+      '@testing-library/user-event': registry.npmjs.org/@testing-library/user-event/13.5.0_@testing-library+dom@8.11.3
       '@types/jest': registry.npmjs.org/@types/jest/26.0.24
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/17.0.39
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.11
-      '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.22
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
 
   4ward/ui/button:
@@ -70,6 +70,9 @@ importers:
     specifiers: {}
 
   4ward/ui/hello-world:
+    specifiers: {}
+
+  4ward/ui/input-checkbox:
     specifiers: {}
 
   4ward/ui/loader:
@@ -905,7 +908,7 @@ packages:
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
       '@testing-library/dom': registry.npmjs.org/@testing-library/dom/8.11.3
-    dev: false
+    dev: true
 
   registry.npmjs.org/@types/aria-query/4.2.2:
     resolution: {integrity: sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/aria-query/-/aria-query-4.2.2.tgz}
@@ -920,7 +923,7 @@ packages:
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/17.0.39
       hoist-non-react-statics: registry.npmjs.org/hoist-non-react-statics/3.3.2
-    dev: true
+    dev: false
 
   registry.npmjs.org/@types/istanbul-lib-coverage/2.0.4:
     resolution: {integrity: sha512-z/QT1XN4K4KYuslS23k62yDIDLwLFkzxOuMplDtObz0+y7VqJCaO2o+SPwHCvLFZh7xazvvoor2tA/hPz9ee7g==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.4.tgz}
@@ -989,7 +992,6 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.4.tgz}
     name: '@types/prop-types'
     version: 15.7.4
-    dev: true
 
   registry.npmjs.org/@types/react-dom/17.0.11:
     resolution: {integrity: sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.11.tgz}
@@ -1007,13 +1009,11 @@ packages:
       '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.4
       '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.2
       csstype: registry.npmjs.org/csstype/3.0.10
-    dev: true
 
   registry.npmjs.org/@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz}
     name: '@types/scheduler'
     version: 0.16.2
-    dev: true
 
   registry.npmjs.org/@types/styled-components/5.1.22:
     resolution: {integrity: sha512-zQzf/0aGtgFDjB942f8IaKA6UilFziDza9wXkAX5mpiSWA/FBZBU6yUavvczulTvoR6759h6CH8HuuIcJDBgZA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/styled-components/-/styled-components-5.1.22.tgz}
@@ -1023,7 +1023,7 @@ packages:
       '@types/hoist-non-react-statics': registry.npmjs.org/@types/hoist-non-react-statics/3.3.1
       '@types/react': registry.npmjs.org/@types/react/17.0.39
       csstype: registry.npmjs.org/csstype/3.0.10
-    dev: true
+    dev: false
 
   registry.npmjs.org/@types/testing-library__jest-dom/5.9.5:
     resolution: {integrity: sha512-ggn3ws+yRbOHog9GxnXiEZ/35Mow6YtPZpd7Z5mKDeZS/o7zx3yAle0ov/wjhVB5QT4N2Dt+GNoGCdqkBGCajQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.9.5.tgz}
@@ -1792,7 +1792,6 @@ packages:
     resolution: {integrity: sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/csstype/-/csstype-3.0.10.tgz}
     name: csstype
     version: 3.0.10
-    dev: true
 
   registry.npmjs.org/currently-unhandled/0.4.1:
     resolution: {integrity: sha1-mI3zP+qxke95mmE2nddsF635V+o=, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/currently-unhandled/-/currently-unhandled-0.4.1.tgz}
@@ -2456,6 +2455,7 @@ packages:
     version: 3.3.2
     dependencies:
       react-is: registry.npmjs.org/react-is/16.13.1
+    dev: false
 
   registry.npmjs.org/hosted-git-info/2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz}
@@ -3216,6 +3216,7 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz}
     name: react-is
     version: 16.13.1
+    dev: false
 
   registry.npmjs.org/react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz}
