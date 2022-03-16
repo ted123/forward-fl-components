@@ -59,7 +59,7 @@
     },
     "ui/pagination": {
         "scope": "forward.4ward",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/pagination"
     },
