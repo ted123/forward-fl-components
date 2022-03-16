@@ -10,14 +10,14 @@
 
 {
     "ui/accordion": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/accordion"
     },
     "ui/button": {
         "scope": "forward.4ward",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/button"
     },
@@ -28,8 +28,8 @@
         "rootDir": "4ward/ui/hello-world"
     },
     "ui/input-checkbox": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/input-checkbox"
     },
@@ -59,7 +59,7 @@
     },
     "ui/pagination": {
         "scope": "forward.4ward",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/pagination"
     },
