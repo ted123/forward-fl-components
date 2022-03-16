@@ -7,28 +7,54 @@ export type PaginationProps = {
    */
   totalDataLength: number
   handlePagination: (page: number) => void
-  maxPageLimit: number
-  disabled?:boolean
-  currentPage:number
+  maxPageLimit?: number
+  disabled?: boolean
+  currentPage: number
 };
 
 export function Pagination({
-  totalDataLength, maxPageLimit, handlePagination, disabled, currentPage,
+  totalDataLength, maxPageLimit = 5, handlePagination, disabled, currentPage,
 }: PaginationProps) {
+  const startAndEndWindowSize = 6;
   const [cPage, setcurrentPage] = useState(currentPage);
   const [pages, setPage] = useState([]);
   const [maxPageNumberLimit, setmaxPageNumberLimit] = useState(maxPageLimit);
   const [minPageNumberLimit, setminPageNumberLimit] = useState(0);
   const pageArray = [];
   useEffect(() => {
-    for (let i = 1; i <= Math.ceil(totalDataLength / maxPageLimit); i += 1) {
-      pageArray.push(i);
+    if (totalDataLength <= 7) {
+      setminPageNumberLimit(0);
+      setmaxPageNumberLimit(totalDataLength);
+      for (let i = 1; i <= totalDataLength; i += 1) {
+        pageArray.push(i);
+      }
+    } else {
+      for (let i = 1; i <= Math.ceil(totalDataLength / maxPageLimit); i += 1) {
+        pageArray.push(i);
+      }
     }
     setPage(pageArray);
     handlePagination(cPage);
   }, [cPage, setcurrentPage]);
   const handleClick = (event) => {
     setcurrentPage(Number(event.target.id));
+    if (Number(event.target.id) < maxPageLimit - Math.floor(maxPageLimit / 2)) {
+      setminPageNumberLimit(0);
+      setmaxPageNumberLimit(maxPageLimit);
+    }
+    if (Number(event.target.id) > pages.length - Math.floor(maxPageLimit / 2)) {
+      setminPageNumberLimit(pages.length - maxPageLimit);
+      setmaxPageNumberLimit(pages.length);
+    }
+    if (Number(event.target.id) >= maxPageLimit - 1) {
+      setmaxPageNumberLimit(Number(event.target.id) + 2);
+      setminPageNumberLimit(Number(event.target.id) - 3);
+    }
+    if (Number(event.target.id) > pages.length - maxPageLimit + 1
+        && Number(event.target.id) > maxPageLimit) {
+      setmaxPageNumberLimit(pages.length);
+      setminPageNumberLimit(pages.length - maxPageLimit);
+    }
   };
   const renderPageNumbers = pages.map((number) => {
     if (number < maxPageNumberLimit + 1 && number > minPageNumberLimit) {
@@ -40,7 +66,8 @@ export function Pagination({
           onClick={handleClick}
           aria-label={number}
           active={cPage === number}
-          lastPage={maxPageNumberLimit === maxPageLimit ? maxPageLimit + 1 : maxPageLimit + 2}
+          lastPage={maxPageNumberLimit === maxPageLimit
+            ? maxPageLimit + 1 : startAndEndWindowSize + 1}
         >
           {number}
         </StyledPagesButton>
@@ -51,23 +78,35 @@ export function Pagination({
   const handleNextbtn = () => {
     setcurrentPage(cPage + 1);
 
-    if (cPage + 1 > maxPageNumberLimit) {
-      setmaxPageNumberLimit(maxPageNumberLimit + maxPageLimit);
-      setminPageNumberLimit(minPageNumberLimit + maxPageLimit);
+    if (cPage > maxPageLimit - Math.floor(maxPageLimit / 2)) {
+      setmaxPageNumberLimit(cPage + 3);
+      setminPageNumberLimit(cPage - 2);
+    }
+    if (minPageNumberLimit === (pages.length - maxPageLimit)) {
+      setmaxPageNumberLimit(pages.length);
+      setminPageNumberLimit(pages.length - maxPageLimit);
+    }
+    if (cPage >= pages.length - maxPageLimit) {
+      setmaxPageNumberLimit(pages.length);
+      setminPageNumberLimit(pages.length - maxPageLimit);
     }
   };
 
   const handlePrevbtn = () => {
     setcurrentPage(cPage - 1);
-    if ((cPage - 1) % maxPageLimit === 0) {
-      setmaxPageNumberLimit(maxPageNumberLimit - maxPageLimit);
-      setminPageNumberLimit(minPageNumberLimit - maxPageLimit);
+    if (cPage <= pages.length - Math.floor(maxPageLimit / 2) && cPage > maxPageLimit) {
+      setmaxPageNumberLimit(cPage + 1);
+      setminPageNumberLimit(cPage - 1 - Math.floor(startAndEndWindowSize / 2));
+    }
+    if (cPage <= maxPageLimit) {
+      setmaxPageNumberLimit(maxPageLimit);
+      setminPageNumberLimit(maxPageLimit - maxPageLimit);
     }
   };
   const handleFirstPageDirect = () => {
     const pageJump = cPage - 1;
     setcurrentPage(cPage - pageJump);
-    setmaxPageNumberLimit(maxPageNumberLimit - minPageNumberLimit);
+    setmaxPageNumberLimit(maxPageLimit);
     setminPageNumberLimit(pageJump - pageJump);
   };
   const handleLastPageDirect = () => {

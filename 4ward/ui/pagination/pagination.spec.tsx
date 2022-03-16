@@ -1299,4 +1299,124 @@ describe('initial test for paginator component', () => {
     const content = screen.getByText('5');
     expect(content).toHaveTextContent('5');
   });
+  it('pagination disabled', () => {
+    render(<Pagination
+      currentPage={1}
+      handlePagination={handlePagination}
+      totalDataLength={pageData.length}
+      disabled
+      maxPageLimit={5}
+    />);
+    fireEvent.click(screen.getByLabelText('next'));
+    expect(screen).toBeTruthy();
+  });
+  it('should render all pages', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(<Pagination
+      handlePagination={handlePagination}
+      totalDataLength={7}
+      maxPageLimit={5}
+      currentPage={1}
+    />, div);
+    expect(div).toBeTruthy();
+  });
+  it('should click greater than 20 pages', () => {
+    render(<Pagination
+      currentPage={1}
+      handlePagination={handlePagination}
+      totalDataLength={pageData.length}
+      maxPageLimit={6}
+    />);
+    fireEvent.click(screen.getByLabelText(/Go to last page/i));
+    fireEvent.click(screen.getByLabelText(/29/i));
+    const content = screen.getByText('27');
+    expect(content).toHaveTextContent('27');
+  });
+  it('should click greater than 30 pages', () => {
+    render(<Pagination
+      currentPage={1}
+      handlePagination={handlePagination}
+      totalDataLength={pageData.length}
+      maxPageLimit={6}
+    />);
+    fireEvent.click(screen.getByLabelText(/Go to last page/i));
+    fireEvent.click(screen.getByLabelText(/32/i));
+    const content = screen.getByText('30');
+    expect(content).toHaveTextContent('30');
+  });
+  it('should click less than the max page limit', () => {
+    render(<Pagination
+      currentPage={1}
+      handlePagination={handlePagination}
+      totalDataLength={pageData.length}
+      maxPageLimit={6}
+    />);
+    fireEvent.click(screen.getByLabelText(/2/i));
+    const content = screen.getByText('3');
+    expect(content).toHaveTextContent('3');
+  });
+  it('should check only show left ellipsis', () => {
+    render(<Pagination
+      currentPage={1}
+      handlePagination={handlePagination}
+      totalDataLength={pageData.length}
+      maxPageLimit={6}
+    />);
+    fireEvent.click(screen.getByLabelText(/Go to last page/i));
+    fireEvent.click(screen.getByLabelText(/29/i));
+    fireEvent.click(screen.getByLabelText(/27/i));
+    fireEvent.click(screen.getByLabelText('next'));
+    fireEvent.click(screen.getByLabelText('next'));
+    const content = screen.getByText('30');
+    expect(content).toHaveTextContent('30');
+  });
+  it('should click next to check end pages', () => {
+    render(<Pagination
+      currentPage={1}
+      handlePagination={handlePagination}
+      totalDataLength={pageData.length}
+      maxPageLimit={6}
+    />);
+    fireEvent.click(screen.getByLabelText(/6/i));
+    fireEvent.click(screen.getByLabelText(/8/i));
+    fireEvent.click(screen.getByLabelText(/10/i));
+    fireEvent.click(screen.getByLabelText(/12/i));
+    fireEvent.click(screen.getByLabelText(/14/i));
+    fireEvent.click(screen.getByLabelText(/16/i));
+    fireEvent.click(screen.getByLabelText(/18/i));
+    fireEvent.click(screen.getByLabelText(/20/i));
+    fireEvent.click(screen.getByLabelText(/22/i));
+    fireEvent.click(screen.getByLabelText(/24/i));
+    fireEvent.click(screen.getByLabelText('next'));
+    fireEvent.click(screen.getByLabelText('next'));
+    fireEvent.click(screen.getByLabelText('next'));
+    fireEvent.click(screen.getByLabelText('next'));
+    fireEvent.click(screen.getByLabelText('next'));
+    fireEvent.click(screen.getByLabelText('next'));
+    const content = screen.getByText('29');
+    expect(content).toHaveTextContent('29');
+  });
+  it('should check prev button clicked less than max page limit', () => {
+    render(<Pagination
+      currentPage={1}
+      handlePagination={handlePagination}
+      totalDataLength={pageData.length}
+      maxPageLimit={6}
+    />);
+    fireEvent.click(screen.getByLabelText('next'));
+    fireEvent.click(screen.getByLabelText('previous'));
+    const content = screen.getByText('1');
+    expect(content).toHaveTextContent('1');
+  });
+  it('should render with no maxPage Limit', () => {
+    render(<Pagination
+      currentPage={1}
+      handlePagination={handlePagination}
+      totalDataLength={pageData.length}
+    />);
+    fireEvent.click(screen.getByLabelText('next'));
+    fireEvent.click(screen.getByLabelText('previous'));
+    const content = screen.getByText('1');
+    expect(content).toHaveTextContent('1');
+  });
 });

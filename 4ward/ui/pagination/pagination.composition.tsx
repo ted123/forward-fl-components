@@ -1226,7 +1226,7 @@ export const BasicPagination = () => {
       <Pagination
         handlePagination={(cPage) => handlePagination(cPage)}
         totalDataLength={data.length}
-        maxPageLimit={5}
+        maxPageLimit={6}
         currentPage={currentPage}
       />
     </div>
