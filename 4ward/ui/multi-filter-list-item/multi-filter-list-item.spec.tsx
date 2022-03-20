@@ -33,7 +33,11 @@ describe('Multi-filter initial test', () => {
     container = render(
       <MultiFilterList
         label="Test"
-        selected={[]}
+        selected={[{
+          key: '2',
+          value: '2',
+          label: 'Coco',
+        }]}
         onSelectChange={onSelectChange}
       >
         {data.map((d) => (
@@ -60,7 +64,7 @@ describe('Multi-filter initial test', () => {
     const dropDownButton = getByTestId('button-dropdown');
     fireEvent.click(dropDownButton);
     const checkbox = screen.getByRole('checkbox', { name: /Toy Story/i });
-    const checkboxItem = getByTestId('multi-item-1');
+    const checkboxItem = getByTestId('checkbox-Toy Story');
     userEvent.click(checkbox);
 
     expect(checkboxItem.checked).toEqual(true);

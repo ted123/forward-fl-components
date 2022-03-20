@@ -117,7 +117,7 @@ describe('Multi-filter test', () => {
       <MultiFilterList
         label="Test"
         selected={[]}
-        isDisabled
+        disabled
         onSelectChange={onSelectChange}
       >
         {data.map((d) => (

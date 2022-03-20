@@ -45,10 +45,12 @@ export const BasicMultiFilterList = () => {
   }, []);
 
   return (
-    <div>
+    <div >
       <MultiFilterList
         label="Multi-Filter"
         selected={values}
+        width={240}
+        widthContent={240}
         labelWeight="bold"
         defaultSelectedText="None"
         searchPlaceholder="Type here to filter"
