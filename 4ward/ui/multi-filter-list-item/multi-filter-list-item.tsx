@@ -1,7 +1,6 @@
-import React, { ChangeEvent, ReactNode, useContext } from 'react';
-import { MultiFilterListContext } from '@4ward/ui.multi-filter-list';
+import React, { ChangeEvent, ReactNode } from 'react';
 import { InputCheckbox } from '@4ward/ui.input-checkbox';
-import { Checkbox, OptionLabel, LabelSpan } from './style';
+import { OptionLabel } from './style';
 
 type Option = {
   key: string;
@@ -15,25 +14,33 @@ export type MultiFilterListItemProps = {
    */
   children?: ReactNode;
   item: Option
+  selected?: Option[];
+  onChange?: (e, item) => void;
 };
 
-export function MultiFilterListItem({ item, children }: MultiFilterListItemProps) {
-  const { onSelectItemChange, selected } = useContext(MultiFilterListContext);
+export function MultiFilterListItem({
+  item, children, selected, onChange,
+}: MultiFilterListItemProps) {
+  const notSelected = (selected || [])
+    .filter(({ value }) => value.toString() === item.value.toString()).length > 0;
 
-  const notSelected = selected.filter(({ value }) => value.toString() === item.value.toString()).length > 0;
+  const isOptionSelected = Array.isArray(selected) ? notSelected : selected !== undefined;
 
-  const isOptionSelected = Array.isArray(selected) ? notSelected : true;
+  const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
+    if (typeof onChange === 'function') {
+      onChange(e, item);
+    }
+  };
 
   return (
     <OptionLabel>
       <InputCheckbox
-        data-testid={`multi-item-${item.key}`} 
+        data-testid={`multi-item-${item.key}`}
         checked={isOptionSelected}
-        value={item.value} 
-        onChange={(e: ChangeEvent<HTMLInputElement>) => onSelectItemChange(e, item)} 
-        id={item.value}
+        value={item.value}
+        onChange={handleOnChange}
+        id={item.key}
       >
-        &nbsp;
         {children}
       </InputCheckbox>
     </OptionLabel>

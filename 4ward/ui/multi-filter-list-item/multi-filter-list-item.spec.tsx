@@ -27,6 +27,7 @@ const data = [{
 
 let container;
 const onSelectChange = jest.fn();
+const onChange = jest.fn();
 
 describe('Multi-filter initial test', () => {
   beforeEach(() => {
@@ -44,6 +45,12 @@ describe('Multi-filter initial test', () => {
           <MultiFilterListItem
             key={d.key}
             item={d as any}
+            selected={[{
+              key: '2',
+              value: '2',
+              label: 'Coco',
+            }]}
+            onChange={onChange}
           >
             {d.label}
           </MultiFilterListItem>
@@ -63,9 +70,9 @@ describe('Multi-filter initial test', () => {
     const { getByTestId } = container;
     const dropDownButton = getByTestId('button-dropdown');
     fireEvent.click(dropDownButton);
-    const checkbox = screen.getByRole('checkbox', { name: /Toy Story/i });
+    const checkbox = screen.getByRole('checkbox', { name: /Coco/i });
     const checkboxItem = getByTestId('checkbox-Toy Story');
-    userEvent.click(checkbox);
+    userEvent.click(checkboxItem);
 
     expect(checkboxItem.checked).toEqual(true);
     expect(checkboxItem.value).toEqual('1');

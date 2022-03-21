@@ -46,6 +46,11 @@ export const ButtonDropDown = styled.button`
   &:hover {
     background-color: #eef1f3;
   }
+
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
 `;
 
 export const DropDownContent = styled.div`

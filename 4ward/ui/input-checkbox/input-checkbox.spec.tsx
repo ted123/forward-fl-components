@@ -16,7 +16,13 @@ it('should be diabled', () => {
 
 it('should check the checkbox', () => {
   const handleOnChange = jest.fn();
-  const { getByTestId } = render(<InputCheckbox onChange={handleOnChange}>hello world!</InputCheckbox>);
+  const { getByTestId } = render(
+    <InputCheckbox
+      onChange={handleOnChange}
+    >
+      hello world!
+    </InputCheckbox>,
+  );
   const checkbox = getByTestId('checkbox-hello world!');
 
   fireEvent.click(checkbox);

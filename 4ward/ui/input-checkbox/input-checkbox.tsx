@@ -1,4 +1,6 @@
-import React, { ReactNode, useEffect, useRef, useState } from 'react';
+import React, {
+  ReactNode, useEffect, useState,
+} from 'react';
 import { StyledContainer, StyledLabel, StyledCheckbox } from './style';
 
 export type InputCheckboxProps = {
@@ -38,11 +40,12 @@ export function InputCheckbox({
         data-testid={`checkbox-${children}`}
         onChange={handleOnChange}
         value={value}
-        id={id} 
+        id={id}
         checked={isChecked}
-        type="checkbox" 
-        disabled={disabled} 
-        required={required} />
+        type="checkbox"
+        disabled={disabled}
+        required={required}
+      />
       <StyledLabel fontWeight={fontWeight}>{children}</StyledLabel>
     </StyledContainer>
   );
