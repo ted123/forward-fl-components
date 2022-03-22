@@ -47,6 +47,7 @@
         "@teambit/harmony": "0.2.11",
         "@teambit/react.templates.themes.theme": "0.0.4",
         "@testing-library/dom": "8.11.3",
+        "@testing-library/react-hooks": "7.0.2",
         "@testing-library/user-event": "13.5.0",
         "@types/styled-components": "5.1.22",
         "@typescript-eslint/eslint-plugin": "4.29.3",

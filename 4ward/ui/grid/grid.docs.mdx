@@ -1,0 +1,63 @@
+---
+description: A Grid component.
+---
+
+import { Grid, SortButton } from './grid';
+import {
+  SortButtons,
+  SVG,
+  GridHeader,
+  GridRow,
+  GridBody,
+  GridCell,
+  GridColumn,
+  CloseButton
+ } from './style';
+
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<Grid>Hello world!</Grid>
+```
+### Basic Example
+``` html
+ <Grid/>
+```
+
+### Render Grid!
+
+```js live
+    <Grid
+      data-testid="GridId"
+    >
+    <GridHeader>
+        <GridColumn width='200px' sortBy={'FirstName'}>
+            FirstName
+            <SortButton>
+            </SortButton>
+        </GridColumn>
+        <GridColumn width='200px' sortBy={'FirstName'}>
+           LastName
+        </GridColumn>
+        <GridColumn width='100px' sortBy={'FirstName'}>
+           Usage
+        </GridColumn>
+     </GridHeader>
+     <GridBody>
+        <GridRow>
+          <GridCell>
+             <a href="https://www.google.com">FirstName</a>
+          </GridCell>
+          <GridCell>
+            LastName
+            <button>BUTTON</button>
+          </GridCell>
+          <GridCell>
+            UsageSamp
+          </GridCell>
+      </GridRow>
+      </GridBody>
+    </Grid>
+```
