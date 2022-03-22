@@ -50,7 +50,7 @@ export function Pagination({
       setmaxPageNumberLimit(Number(event.target.id) + 2);
       setminPageNumberLimit(Number(event.target.id) - 3);
     }
-    if (Number(event.target.id) > pages.length - maxPageLimit + 1
+    if (Number(event.target.id) > pages.length - Math.floor(maxPageLimit / 2 + 1)
         && Number(event.target.id) > maxPageLimit) {
       setmaxPageNumberLimit(pages.length);
       setminPageNumberLimit(pages.length - maxPageLimit);
