@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { ChangeEvent, useEffect, useState } from 'react';
 import { MultiFilterListItem } from '@4ward/ui.multi-filter-list-item';
 import { MultiFilterList } from './multi-filter-list';
 
@@ -44,6 +44,26 @@ export const BasicMultiFilterList = () => {
     setData(STUB_DATA);
   }, []);
 
+  const handleOnSelectItemChange = (e: ChangeEvent<HTMLInputElement>, item: any) => {
+    const currentSelectedValues = Array.isArray(values) ? values : [];
+    const targetValue = e.target.value.toString().toLowerCase();
+
+    if (!e.target.checked) {
+      const handlerFilter = (option) => option.value.toString().toLowerCase() !== targetValue;
+      const newSelectedValues = [...currentSelectedValues].filter(handlerFilter);
+
+      setValues(newSelectedValues);
+      return;
+    }
+
+    const handlerFindIndex = (option) => option.value.toString().toLowerCase() === targetValue;
+    const selectedOptionIndex = [...currentSelectedValues].findIndex(handlerFindIndex);
+
+    setValues(selectedOptionIndex === -1
+      ? [...currentSelectedValues, item]
+      : [...currentSelectedValues]);
+  };
+
   return (
     <div>
       <MultiFilterList
@@ -58,6 +78,8 @@ export const BasicMultiFilterList = () => {
           <MultiFilterListItem
             key={option.value}
             item={option}
+            selected={values}
+            onChange={(e) => handleOnSelectItemChange(e, option)}
           >
             {option.label}
           </MultiFilterListItem>

@@ -17,7 +17,7 @@ A component that does something special and renders text in a div.
     searchPlaceholder="Type here to filter"
     onSelectChange={selectedValues => setValues(selectedValues)}
 >
-    {data.map(option => <MultiFilterListItem key={option.value} item={option}>{option.label}</MultiFilterListItem>)}
+    {data.map(option => <MultiFilterListItem key={option.value} item={option} selected={values} onChange={(e) => handleOnSelectItemChange(e, option)}>{option.label}</MultiFilterListItem>)}
 </MultiFilterList>
 ```
 

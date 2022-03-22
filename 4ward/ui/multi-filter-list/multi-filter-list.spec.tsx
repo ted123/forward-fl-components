@@ -9,6 +9,7 @@ import { MultiFilterList } from './multi-filter-list';
 
 let container;
 const onSelectChange = jest.fn();
+const onChange = jest.fn();
 
 const data = [{
   key: '1',
@@ -44,6 +45,7 @@ describe('Multi-filter test', () => {
           <MultiFilterListItem
             key={d.key}
             item={d as any}
+            onChange={onChange}
           >
             {d.label}
           </MultiFilterListItem>
@@ -73,6 +75,7 @@ describe('Multi-filter test', () => {
           <MultiFilterListItem
             key={d.key}
             item={d as any}
+            onChange={onChange}
           >
             {d.label}
           </MultiFilterListItem>
@@ -117,13 +120,14 @@ describe('Multi-filter test', () => {
       <MultiFilterList
         label="Test"
         selected={[]}
-        isDisabled
+        disabled
         onSelectChange={onSelectChange}
       >
         {data.map((d) => (
           <MultiFilterListItem
             key={d.key}
             item={d as any}
+            onChange={onChange}
           >
             {d.label}
           </MultiFilterListItem>
@@ -143,9 +147,9 @@ describe('Multi-filter test', () => {
 
     fireEvent.click(selectAllBtn);
 
-    const dropDownButton = screen.getByRole('button', { name: /All/i });
+    const dropDownButton = screen.getByRole('button', { name: /Three/i });
 
-    expect(dropDownButton).toHaveTextContent('All');
+    expect(dropDownButton).toHaveTextContent('Three');
     expect(selectAllBtn).toBeTruthy();
     expect(selectAllBtn).toBeDisabled();
   });
@@ -183,6 +187,16 @@ describe('Multi-filter test', () => {
           <MultiFilterListItem
             key={d.key}
             item={d as any}
+            selected={[{
+              key: '3',
+              value: '3',
+              label: 'Three',
+            }, {
+              key: '4',
+              value: '4',
+              label: 'Four',
+            }]}
+            onChange={onChange}
           >
             {d.label}
           </MultiFilterListItem>
@@ -229,5 +243,29 @@ describe('Multi-filter test', () => {
 
     const renderItem = await screen.findByText('Four');
     expect(renderItem).toBeTruthy();
+  });
+
+  it('should check selected item', () => {
+    container = render(<BasicMultiFilterList />);
+    const { getByTestId } = container;
+    const dropDownButton = screen.getByRole('button', { name: /Three/i });
+    fireEvent.click(dropDownButton);
+
+    const checkboxItem = getByTestId('checkbox-Six');
+    userEvent.click(checkboxItem);
+
+    expect(checkboxItem).toBeChecked();
+  });
+
+  it('should uncheck item', () => {
+    container = render(<BasicMultiFilterList />);
+    const { getByTestId } = container;
+    const dropDownButton = screen.getByRole('button', { name: /Three/i });
+    fireEvent.click(dropDownButton);
+
+    const checkboxItem = getByTestId('checkbox-Six');
+    userEvent.dblClick(checkboxItem);
+
+    expect(checkboxItem).not.toBeChecked();
   });
 });

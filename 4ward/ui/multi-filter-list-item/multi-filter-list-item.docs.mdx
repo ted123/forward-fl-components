@@ -3,13 +3,19 @@ description: A MultiFilterListItem component.
 ---
 
 import { MultiFilterListItem } from './multi-filter-list-item';
-import { MultiFilterListContext, MultiFilterList } from '@4ward/ui.multi-filter-list';
+import { MultiFilterList } from '@4ward/ui.multi-filter-list';
 
 A component that does something special and renders text in a div.
 
 ### Component usage
 ```js
-<MultiFilterListItem item={option}>{option.label}</MultiFilterListItem>
+<MultiFilterListItem
+  item={option}
+  selected={values}
+  onChange={(e) => handleOnSelectItemChange(e, option)}
+>
+  {option.label}
+</MultiFilterListItem>
 ```
 
 ### Render Multi-Filter List Item!

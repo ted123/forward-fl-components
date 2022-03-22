@@ -6,12 +6,13 @@ type StyledLabelProps = {
 
 type StyledDropContentProps = {
   show?: boolean;
+  width?: number;
 };
 
 export const StyledLabel = styled.label`
   display: block;
   padding-bottom: 5px;
-  font-weight: ${(props: StyledLabelProps) => props.labelWeight || 'normal'} 
+  font-weight: ${(props: StyledLabelProps) => props.labelWeight || 'normal'}; 
 `;
 export const DropdownBtnWrapper = styled.div`
   display: inline-block;
@@ -36,12 +37,25 @@ export const ButtonDropDown = styled.button`
   overflow: hidden;
   text-overflow: ellipsis;
   padding-right: 21px;
+  font-family: Arial, verdana, tahoma;
+  background-color: #f4f4f4;
+  color: #3a4049;
 
   height: ${(props: { height: number }) => `${props.height}px`};
+
+  &:hover {
+    background-color: #eef1f3;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
 `;
 
 export const DropDownContent = styled.div`
   display: ${(props: StyledDropContentProps) => (props.show ? 'block' : 'none')};
+  width: ${(props: StyledDropContentProps) => `${props.width}px`};
   position: absolute;
   border: 1px solid #d5dbe1;
   box-shadow: 0px 3px 7px rgb(191 177 177);
@@ -67,9 +81,15 @@ export const Input = styled.input`
   border: none;
   height: 30px;
   width: 100%;
+  font-family: Arial, verdana, tahoma;
+  color: #494c52;
 
   &:focus {
     outline: none !important;
+  }
+
+  ::placeholder {
+    color: #494c52;
   }
 `;
 export const StyledItems = styled.div`
@@ -84,6 +104,7 @@ export const DivWrapper = styled.div`
   position: relative;
   padding: 5px 10px;
   background-color: #FFFFFF;
+  color: #494c52;
 `;
 
 export const Footer = styled.div`
