@@ -8,7 +8,7 @@ it('should render with the correct text', () => {
   const rendered = getByText('hello world!');
   expect(rendered).toBeTruthy();
 });
-it('should be diabled', () => {
+it('should be disabled', () => {
   const { getByText } = render(<InputCheckbox disabled>hello world!</InputCheckbox>);
   const rendered = getByText('hello world!');
   expect(rendered).toBeTruthy();
