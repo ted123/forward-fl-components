@@ -39,6 +39,12 @@
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/input-radio"
     },
+    "ui/input-textarea": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/input-textarea"
+    },
     "ui/loader": {
         "scope": "forward.4ward",
         "version": "0.0.1",
