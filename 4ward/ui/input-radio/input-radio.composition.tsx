@@ -15,6 +15,11 @@ export const DisabledRadio = () => (
 );
 export const SelectedRadio = () => (
   <div>
-    <InputRadio radioName="hello" selected>hello world 2!</InputRadio>
+    <InputRadio radioName="hello2" selected>hello world 2!</InputRadio>
+  </div>
+);
+export const ColoredRadio = () => (
+  <div>
+    <InputRadio radioName="helloColored" selected checkedColor="blue">hello world 2!</InputRadio>
   </div>
 );

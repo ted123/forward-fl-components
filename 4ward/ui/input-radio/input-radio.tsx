@@ -14,11 +14,12 @@ export type InputRadioProps = {
   fontWeight?: string;
   onChange?: (e) => void;
   radioName?: string;
+  checkedColor?:string;
 };
 
 export function InputRadio({
   radioName, children, disabled = false, selected = false,
-  required, value, onChange, id, fontWeight,
+  required, value, onChange, id, fontWeight, checkedColor = null,
 }: InputRadioProps) {
   const [isSelected, setIsSelected] = useState(false);
   useEffect(() => {
@@ -43,6 +44,7 @@ export function InputRadio({
         disabled={disabled}
         required={required}
         name={radioName}
+        checkedColor={checkedColor}
       />
       <StyledLabel fontWeight={fontWeight}>{children}</StyledLabel>
     </StyledContainer>
