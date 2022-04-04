@@ -20,7 +20,7 @@ it('should render selected radio', () => {
   const rendered = getByText('hello world 2!');
   expect(rendered).toBeTruthy();
 });
-it('should render selected radio', () => {
+it('should render colored radio', () => {
   const { getByText } = render(<ColoredRadio />);
   const rendered = getByText('hello world 2!');
   expect(rendered).toBeTruthy();
