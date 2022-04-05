@@ -39,8 +39,8 @@ export function SortButton({
       data-testid={`SortButtonId${columnKey}${sortDirection}`}
       onClick={onClick}
       className={`${columnKey === sortBy && sortDirection === 'desc'
-        ? 'sortReverse'
-        : 'sortButton'
+        ? 'sortButton'
+        : 'sortReverse'
       }`}
     >
       <SVG xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">

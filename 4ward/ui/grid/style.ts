@@ -38,7 +38,7 @@ vertical-align: bottom;
   }
 
   &.sortReverse {
-    transform: translateY(4px);
+    transform: translateY(6px);
   }
 `;
 
