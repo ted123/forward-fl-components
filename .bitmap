@@ -3,9 +3,9 @@
 /**
  * The Bitmap file is an auto generated file used by Bit to track all your Bit components. It maps the component to a folder in your file system.
  * This file should be committed to VCS(version control).
- * Components are listed using their component ID (https://bit.dev/docs/components/component-id).
+ * Components are listed using their component ID (https://harmony-docs.bit.dev/aspects/component/#component-id).
  * If you want to delete components you can use the "bit remove <component-id>" command.
- * See the docs (https://bit.dev/docs/components/removing-components) for more information, or use "bit remove --help".
+ * See the docs (https://harmony-docs.bit.dev/building-with-bit/removing-components) for more information, or use "bit remove --help".
  */
 
 {
@@ -22,8 +22,8 @@
         "rootDir": "4ward/ui/button"
     },
     "ui/grid": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/grid"
     },
@@ -35,19 +35,19 @@
     },
     "ui/input-checkbox": {
         "scope": "forward.4ward",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/input-checkbox"
     },
     "ui/input-radio": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/input-radio"
     },
     "ui/input-textarea": {
-        "scope": "",
-        "version": "",
+        "scope": "forward.4ward",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/input-textarea"
     },
@@ -71,19 +71,19 @@
     },
     "ui/multi-filter-list": {
         "scope": "forward.4ward",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/multi-filter-list"
     },
     "ui/multi-filter-list-item": {
         "scope": "forward.4ward",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/multi-filter-list-item"
     },
     "ui/pagination": {
         "scope": "forward.4ward",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/pagination"
     },
