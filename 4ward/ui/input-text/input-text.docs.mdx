@@ -1,0 +1,33 @@
+---
+description: A InputText component.
+---
+
+import { InputText } from './input-text';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<InputText
+    searchIcon
+    type="search"
+    size="large"
+    label="Large"
+    value={value}
+    id={id}
+    name={name}
+    placeholder="Type here"
+    onChange={(e) => setValue(e.target.value)}
+/>
+```
+
+### Render Input Text!
+
+```js live
+<InputText
+    id='user-12'
+    name='userN'
+    placeholder="Type here"
+    value='test'
+/>
+```
