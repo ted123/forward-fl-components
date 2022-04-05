@@ -21,6 +21,12 @@
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/button"
     },
+    "ui/grid": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/grid"
+    },
     "ui/hello-world": {
         "scope": "forward.4ward",
         "version": "0.0.8",

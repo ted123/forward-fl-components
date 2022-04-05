@@ -13,6 +13,7 @@ importers:
       '@teambit/react.templates.themes.theme': 0.0.4
       '@testing-library/dom': 8.11.3
       '@testing-library/react': 12.0.0
+      '@testing-library/react-hooks': 7.0.2
       '@testing-library/user-event': 13.5.0
       '@types/jest': ^26.0.0
       '@types/node': 12.20.4
@@ -41,7 +42,7 @@ importers:
       '@teambit/react.templates.themes.theme': 0.0.4_28efb623cb9aaa0b90b285bfbaeaff3c
       '@testing-library/dom': registry.npmjs.org/@testing-library/dom/8.11.3
       '@testing-library/react': registry.npmjs.org/@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2
-      '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.22
+      '@testing-library/react-hooks': registry.npmjs.org/@testing-library/react-hooks/7.0.2_react-dom@17.0.2+react@17.0.2
       '@typescript-eslint/eslint-plugin': registry.npmjs.org/@typescript-eslint/eslint-plugin/4.29.3
       classnames: registry.npmjs.org/classnames/2.3.1
       core-js: registry.npmjs.org/core-js/3.21.0
@@ -61,12 +62,19 @@ importers:
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/17.0.39
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.11
+      '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.22
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
+
+  4ward/ui/accordion:
+    specifiers: {}
 
   4ward/ui/button:
     specifiers: {}
 
   4ward/ui/component-toaster:
+    specifiers: {}
+
+  4ward/ui/grid:
     specifiers: {}
 
   4ward/ui/hello-world:
@@ -881,6 +889,31 @@ packages:
       pretty-format: registry.npmjs.org/pretty-format/27.5.1
     dev: false
 
+  registry.npmjs.org/@testing-library/react-hooks/7.0.2_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-dYxpz8u9m4q1TuzfcUApqi8iFfR6R0FaMbr2hjZJy1uC8z+bO/K4v8Gs9eogGKYQop7QsrBTFkv/BCF7MzD2Cg==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@testing-library/react-hooks/-/react-hooks-7.0.2.tgz}
+    id: registry.npmjs.org/@testing-library/react-hooks/7.0.2
+    name: '@testing-library/react-hooks'
+    version: 7.0.2
+    engines: {node: '>=12'}
+    peerDependencies:
+      react: '>=16.9.0'
+      react-dom: '>=16.9.0'
+      react-test-renderer: '>=16.9.0'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-test-renderer:
+        optional: true
+    dependencies:
+      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
+      '@types/react': registry.npmjs.org/@types/react/17.0.39
+      '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.11
+      '@types/react-test-renderer': registry.npmjs.org/@types/react-test-renderer/17.0.1
+      react: registry.npmjs.org/react/17.0.2
+      react-dom: registry.npmjs.org/react-dom/17.0.2_react@17.0.2
+      react-error-boundary: registry.npmjs.org/react-error-boundary/3.1.4_react@17.0.2
+    dev: false
+
   registry.npmjs.org/@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-sh3jhFgEshFyJ/0IxGltRhwZv2kFKfJ3fN1vTZ6hhMXzz9ZbbcTgmDYM4e+zJv+oiVKKEWZPyqPAh4MQBI65gA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@testing-library/react/-/react-12.0.0.tgz}
     id: registry.npmjs.org/@testing-library/react/12.0.0
@@ -923,7 +956,7 @@ packages:
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/17.0.39
       hoist-non-react-statics: registry.npmjs.org/hoist-non-react-statics/3.3.2
-    dev: false
+    dev: true
 
   registry.npmjs.org/@types/istanbul-lib-coverage/2.0.4:
     resolution: {integrity: sha512-z/QT1XN4K4KYuslS23k62yDIDLwLFkzxOuMplDtObz0+y7VqJCaO2o+SPwHCvLFZh7xazvvoor2tA/hPz9ee7g==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.4.tgz}
@@ -999,7 +1032,14 @@ packages:
     version: 17.0.11
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/17.0.39
-    dev: true
+
+  registry.npmjs.org/@types/react-test-renderer/17.0.1:
+    resolution: {integrity: sha512-3Fi2O6Zzq/f3QR9dRnlnHso9bMl7weKCviFmfF6B4LS1Uat6Hkm15k0ZAQuDz+UBq6B3+g+NM6IT2nr5QgPzCw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/react-test-renderer/-/react-test-renderer-17.0.1.tgz}
+    name: '@types/react-test-renderer'
+    version: 17.0.1
+    dependencies:
+      '@types/react': registry.npmjs.org/@types/react/17.0.39
+    dev: false
 
   registry.npmjs.org/@types/react/17.0.39:
     resolution: {integrity: sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/react/-/react-17.0.39.tgz}
@@ -1023,7 +1063,7 @@ packages:
       '@types/hoist-non-react-statics': registry.npmjs.org/@types/hoist-non-react-statics/3.3.1
       '@types/react': registry.npmjs.org/@types/react/17.0.39
       csstype: registry.npmjs.org/csstype/3.0.10
-    dev: false
+    dev: true
 
   registry.npmjs.org/@types/testing-library__jest-dom/5.9.5:
     resolution: {integrity: sha512-ggn3ws+yRbOHog9GxnXiEZ/35Mow6YtPZpd7Z5mKDeZS/o7zx3yAle0ov/wjhVB5QT4N2Dt+GNoGCdqkBGCajQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.9.5.tgz}
@@ -2455,7 +2495,6 @@ packages:
     version: 3.3.2
     dependencies:
       react-is: registry.npmjs.org/react-is/16.13.1
-    dev: false
 
   registry.npmjs.org/hosted-git-info/2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz}
@@ -3212,11 +3251,23 @@ packages:
       scheduler: registry.npmjs.org/scheduler/0.20.2
     dev: false
 
+  registry.npmjs.org/react-error-boundary/3.1.4_react@17.0.2:
+    resolution: {integrity: sha512-uM9uPzZJTF6wRQORmSrvOIgt4lJ9MC1sNgEOj2XGsDTRE4kmpWxg7ENK9EWNKJRMAOY9z0MuF4yIfl6gp4sotA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/react-error-boundary/-/react-error-boundary-3.1.4.tgz}
+    id: registry.npmjs.org/react-error-boundary/3.1.4
+    name: react-error-boundary
+    version: 3.1.4
+    engines: {node: '>=10', npm: '>=6'}
+    peerDependencies:
+      react: '>=16.13.1'
+    dependencies:
+      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
+      react: registry.npmjs.org/react/17.0.2
+    dev: false
+
   registry.npmjs.org/react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz}
     name: react-is
     version: 16.13.1
-    dev: false
 
   registry.npmjs.org/react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz}
