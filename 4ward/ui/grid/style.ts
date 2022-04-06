@@ -34,11 +34,11 @@ bottom: 10%;
 text-align: center;
 vertical-align: bottom;
   &.sortButton {
-    transform: rotate(180deg);
+    transform: translateY(6px);
   }
 
   &.sortReverse {
-    transform: translateY(4px);
+    transform: rotate(180deg);
   }
 `;
 
