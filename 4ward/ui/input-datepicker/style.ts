@@ -1,10 +1,17 @@
 import { CalendarIcon } from "./calendar-icon";
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.div<{focus?: boolean}>`
     display: flex;
     position: relative;
-    border: 1px solid;
+    box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 12%);
+    border: 1px solid #c0c8cf;
+    color: #494c52;
+
+    ${({ focus }) => focus && `
+        outline: none !important;
+        border-color: #7e4082;
+    `}
 
     input {
         border: none;
@@ -12,15 +19,27 @@ export const Container = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 25px;
+        min-height: 25px;
         font-size: 16px;
         outline: none;
+        padding-left: 5px;
+
+        width: calc(100% - 30px);
+
+        ::placeholder {
+            color: #cdd3d9;
+        }
     }
 `
 
+export const IconWrapper = styled.div`
+    display: flex;
+    align-items: center;
+`
+
 export const StyledIcon = styled(CalendarIcon)`
-    height: 25px;
+    height: 16px;
     cursor: pointer;
     position: absolute;
-    right: 0;
+    right: 5px;
 `
