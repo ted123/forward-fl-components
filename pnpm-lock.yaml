@@ -18,6 +18,7 @@ importers:
       '@types/jest': ^26.0.0
       '@types/node': 12.20.4
       '@types/react': ^17.0.8
+      '@types/react-datepicker': 4.4.0
       '@types/react-dom': ^17.0.5
       '@types/styled-components': 5.1.22
       '@types/testing-library__jest-dom': 5.9.5
@@ -63,6 +64,7 @@ importers:
       '@types/jest': registry.npmjs.org/@types/jest/26.0.24
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/17.0.39
+      '@types/react-datepicker': registry.npmjs.org/@types/react-datepicker/4.4.0_react@17.0.2
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.11
       '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.22
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
@@ -559,7 +561,6 @@ packages:
     resolution: {integrity: sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@popperjs/core/-/core-2.11.5.tgz}
     name: '@popperjs/core'
     version: 2.11.5
-    dev: false
 
   registry.npmjs.org/@teambit/base-ui.elements.icon/1.0.0_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-qaoHLbt6wNXzgST7N3oE+1hI/PttCzrSLQ9B7d/7yKKxUbHbhjoMX0+wViJxlQq3PYnb8LOHDzwvylfZoeBgKQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@teambit/base-ui.elements.icon/-/base-ui.elements.icon-1.0.0.tgz}
@@ -1045,6 +1046,20 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.4.tgz}
     name: '@types/prop-types'
     version: 15.7.4
+
+  registry.npmjs.org/@types/react-datepicker/4.4.0_react@17.0.2:
+    resolution: {integrity: sha512-wzmevaO51rLFwSZd5HSqBU0aAvZlRRkj6QhHqj0jfRDSKnN3y5IKXyhgxPS8R0LOWOtjdpirI1DBryjnIp/7gA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/react-datepicker/-/react-datepicker-4.4.0.tgz}
+    id: registry.npmjs.org/@types/react-datepicker/4.4.0
+    name: '@types/react-datepicker'
+    version: 4.4.0
+    dependencies:
+      '@popperjs/core': registry.npmjs.org/@popperjs/core/2.11.5
+      '@types/react': registry.npmjs.org/@types/react/17.0.39
+      date-fns: registry.npmjs.org/date-fns/2.28.0
+      react-popper: registry.npmjs.org/react-popper/2.2.5_bdf4b8b1046519a8ec8ac2b64ac98053
+    transitivePeerDependencies:
+      - react
+    dev: true
 
   registry.npmjs.org/@types/react-dom/17.0.11:
     resolution: {integrity: sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.11.tgz}
@@ -1873,7 +1888,6 @@ packages:
     name: date-fns
     version: 2.28.0
     engines: {node: '>=0.11'}
-    dev: false
 
   registry.npmjs.org/debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/debug/-/debug-2.6.9.tgz}
@@ -2781,7 +2795,6 @@ packages:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz}
     name: js-tokens
     version: 4.0.0
-    dev: false
 
   registry.npmjs.org/jsesc/2.5.2:
     resolution: {integrity: sha512-OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/jsesc/-/jsesc-2.5.2.tgz}
@@ -2895,7 +2908,6 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: registry.npmjs.org/js-tokens/4.0.0
-    dev: false
 
   registry.npmjs.org/loud-rejection/1.6.0:
     resolution: {integrity: sha1-W0b4AUft7leIcPCG0Eghz5mOVR8=, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/loud-rejection/-/loud-rejection-1.6.0.tgz}
@@ -3314,7 +3326,6 @@ packages:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz}
     name: react-fast-compare
     version: 3.2.0
-    dev: false
 
   registry.npmjs.org/react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz}
@@ -3352,7 +3363,6 @@ packages:
       react: registry.npmjs.org/react/17.0.2
       react-fast-compare: registry.npmjs.org/react-fast-compare/3.2.0
       warning: registry.npmjs.org/warning/4.0.3
-    dev: false
 
   registry.npmjs.org/react/17.0.2:
     resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/react/-/react-17.0.2.tgz}
@@ -3961,7 +3971,6 @@ packages:
     version: 4.0.3
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
-    dev: false
 
   registry.npmjs.org/which-boxed-primitive/1.0.2:
     resolution: {integrity: sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz}

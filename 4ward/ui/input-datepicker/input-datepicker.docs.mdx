@@ -1,18 +1,22 @@
 ---
-description: A InputDatepicker component.
+description: An InputDatepicker component.
 ---
 
 import { InputDatepicker } from './input-datepicker';
 
-A component that does something special and renders text in a div.
+Date picker component with option to input date via input field.
+React-datepicker properties can also be used in this component, more info here:
+[Docs](https://github.com/Hacker0x01/react-datepicker/blob/master/docs/index.md) & [Examples](https://reactdatepicker.com/)
 
 ### Component usage
 ```js
-<InputDatepicker>Hello world!</InputDatepicker>
+<InputDatepicker onChange={(date) => console.log(date)}/>
 ```
 
-### Render hello world!
+### Render InputDatepicker
 
 ```js live
-<InputDatepicker>Hello world!</InputDatepicker>
+<div style={{height: '300px'}}>
+    <InputDatepicker onChange={(date) => console.log(date)}/>
+</div>
 ```
