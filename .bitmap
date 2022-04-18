@@ -39,6 +39,12 @@
         "mainFile": "index.ts",
         "rootDir": "4ward/ui/input-checkbox"
     },
+    "ui/input-datepicker": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "4ward/ui/input-datepicker"
+    },
     "ui/input-radio": {
         "scope": "forward.4ward",
         "version": "0.0.1",

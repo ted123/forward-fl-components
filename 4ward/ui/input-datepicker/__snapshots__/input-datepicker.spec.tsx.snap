@@ -1,0 +1,4578 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputDatepicker should NOT show calendar when disabled 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gsDKAQ eoddn"
+        disabled=""
+      >
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class=""
+              data-testid="calendar-picker"
+              disabled=""
+              type="text"
+              value="02/21/2022"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-dkPtRN btTqUO"
+          data-testid="calendar-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="sc-bdvvtL hDCVTh"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <g
+              id="XMLID_2_"
+            >
+              <path
+                d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+                id="XMLID_19_"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gsDKAQ eoddn"
+      disabled=""
+    >
+      <div
+        class="react-datepicker-wrapper"
+      >
+        <div
+          class="react-datepicker__input-container"
+        >
+          <input
+            class=""
+            data-testid="calendar-picker"
+            disabled=""
+            type="text"
+            value="02/21/2022"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-dkPtRN btTqUO"
+        data-testid="calendar-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="sc-bdvvtL hDCVTh"
+          id="Layer_1"
+          version="1.1"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <g
+            id="XMLID_2_"
+          >
+            <path
+              d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+              id="XMLID_19_"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`InputDatepicker should deafult to initial date when input is emptied 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gsDKAQ kBsdyy"
+      >
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="react-datepicker-ignore-onclickoutside"
+              data-testid="calendar-picker"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="react-datepicker__tab-loop"
+        >
+          <div
+            class="react-datepicker__tab-loop__start"
+            tabindex="0"
+          />
+          <div
+            class="react-datepicker-popper"
+            data-placement="bottom-start"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+          >
+            <div>
+              <div
+                class="react-datepicker"
+              >
+                <div
+                  class="react-datepicker__triangle"
+                  style="position: absolute; left: 0px; transform: translate(0px, 0px);"
+                />
+                <button
+                  aria-label="Previous Month"
+                  class="react-datepicker__navigation react-datepicker__navigation--previous"
+                  type="button"
+                >
+                  <span
+                    class="react-datepicker__navigation-icon react-datepicker__navigation-icon--previous"
+                  >
+                    Previous Month
+                  </span>
+                </button>
+                <button
+                  aria-label="Next Month"
+                  class="react-datepicker__navigation react-datepicker__navigation--next"
+                  type="button"
+                >
+                  <span
+                    class="react-datepicker__navigation-icon react-datepicker__navigation-icon--next"
+                  >
+                    Next Month
+                  </span>
+                </button>
+                <div
+                  class="react-datepicker__month-container"
+                >
+                  <div
+                    class="react-datepicker__header "
+                  >
+                    <div
+                      class="react-datepicker__current-month"
+                    >
+                      February 2022
+                    </div>
+                    <div
+                      class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"
+                    />
+                    <div
+                      class="react-datepicker__day-names"
+                    >
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Su
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Mo
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Tu
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        We
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Th
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Fr
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Sa
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="month  2022-02"
+                    class="react-datepicker__month"
+                    role="listbox"
+                  >
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, January 30th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        30
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, January 31st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        31
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 1st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--001"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        1
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 2nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--002"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        2
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 3rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--003"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        3
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 4th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--004"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        4
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 5th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        5
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 6th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        6
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 7th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--007"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        7
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 8th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--008"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        8
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 9th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--009"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        9
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 10th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--010"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        10
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 11th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--011"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        11
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 12th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--012 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        12
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 13th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        13
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 14th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--014"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        14
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 15th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--015"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        15
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 16th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--016"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        16
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 17th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--017"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        17
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 18th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--018"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        18
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 19th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--019 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        19
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 20th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        20
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 21st, 2022"
+                        aria-selected="true"
+                        class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--selected"
+                        role="option"
+                        tabindex="0"
+                      >
+                        21
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 22nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--022"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        22
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 23rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--023"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        23
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 24th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--024"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        24
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 25th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--025"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        25
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 26th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--026 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        26
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 27th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        27
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 28th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--028"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        28
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, March 1st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        1
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, March 2nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        2
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, March 3rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        3
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, March 4th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--004 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        4
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, March 5th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="react-datepicker__tab-loop__end"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="sc-dkPtRN btTqUO"
+          data-testid="calendar-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="sc-bdvvtL hDCVTh"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <g
+              id="XMLID_2_"
+            >
+              <path
+                d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+                id="XMLID_19_"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gsDKAQ kBsdyy"
+    >
+      <div
+        class="react-datepicker-wrapper"
+      >
+        <div
+          class="react-datepicker__input-container"
+        >
+          <input
+            class="react-datepicker-ignore-onclickoutside"
+            data-testid="calendar-picker"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="react-datepicker__tab-loop"
+      >
+        <div
+          class="react-datepicker__tab-loop__start"
+          tabindex="0"
+        />
+        <div
+          class="react-datepicker-popper"
+          data-placement="bottom-start"
+          style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+        >
+          <div>
+            <div
+              class="react-datepicker"
+            >
+              <div
+                class="react-datepicker__triangle"
+                style="position: absolute; left: 0px; transform: translate(0px, 0px);"
+              />
+              <button
+                aria-label="Previous Month"
+                class="react-datepicker__navigation react-datepicker__navigation--previous"
+                type="button"
+              >
+                <span
+                  class="react-datepicker__navigation-icon react-datepicker__navigation-icon--previous"
+                >
+                  Previous Month
+                </span>
+              </button>
+              <button
+                aria-label="Next Month"
+                class="react-datepicker__navigation react-datepicker__navigation--next"
+                type="button"
+              >
+                <span
+                  class="react-datepicker__navigation-icon react-datepicker__navigation-icon--next"
+                >
+                  Next Month
+                </span>
+              </button>
+              <div
+                class="react-datepicker__month-container"
+              >
+                <div
+                  class="react-datepicker__header "
+                >
+                  <div
+                    class="react-datepicker__current-month"
+                  >
+                    February 2022
+                  </div>
+                  <div
+                    class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"
+                  />
+                  <div
+                    class="react-datepicker__day-names"
+                  >
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Su
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Mo
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Tu
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      We
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Th
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Fr
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Sa
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-label="month  2022-02"
+                  class="react-datepicker__month"
+                  role="listbox"
+                >
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, January 30th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      30
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, January 31st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      31
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 1st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      1
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 2nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      2
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 3rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      3
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 4th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--004"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      4
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 5th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      5
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 6th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      6
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 7th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--007"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      7
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 8th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--008"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      8
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 9th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--009"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      9
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 10th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--010"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      10
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 11th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--011"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      11
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 12th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--012 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      12
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 13th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      13
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 14th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--014"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      14
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 15th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--015"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      15
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 16th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--016"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      16
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 17th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--017"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      17
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 18th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--018"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      18
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 19th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--019 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      19
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 20th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      20
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 21st, 2022"
+                      aria-selected="true"
+                      class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--selected"
+                      role="option"
+                      tabindex="0"
+                    >
+                      21
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 22nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--022"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      22
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 23rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--023"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      23
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 24th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--024"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      24
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 25th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--025"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      25
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 26th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--026 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      26
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 27th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      27
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 28th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--028"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      28
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, March 1st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      1
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, March 2nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      2
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, March 3rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      3
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, March 4th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--004 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      4
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, March 5th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      5
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="react-datepicker__tab-loop__end"
+          tabindex="0"
+        />
+      </div>
+      <div
+        class="sc-dkPtRN btTqUO"
+        data-testid="calendar-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="sc-bdvvtL hDCVTh"
+          id="Layer_1"
+          version="1.1"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <g
+            id="XMLID_2_"
+          >
+            <path
+              d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+              id="XMLID_19_"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`InputDatepicker should show calendar when clicked 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gsDKAQ kBsdyy"
+      >
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="react-datepicker-ignore-onclickoutside"
+              data-testid="calendar-picker"
+              type="text"
+              value="02/21/2022"
+            />
+          </div>
+        </div>
+        <div
+          class="react-datepicker__tab-loop"
+        >
+          <div
+            class="react-datepicker__tab-loop__start"
+            tabindex="0"
+          />
+          <div
+            class="react-datepicker-popper"
+            data-placement="bottom-start"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+          >
+            <div>
+              <div
+                class="react-datepicker"
+              >
+                <div
+                  class="react-datepicker__triangle"
+                  style="position: absolute; left: 0px; transform: translate(0px, 0px);"
+                />
+                <button
+                  aria-label="Previous Month"
+                  class="react-datepicker__navigation react-datepicker__navigation--previous"
+                  type="button"
+                >
+                  <span
+                    class="react-datepicker__navigation-icon react-datepicker__navigation-icon--previous"
+                  >
+                    Previous Month
+                  </span>
+                </button>
+                <button
+                  aria-label="Next Month"
+                  class="react-datepicker__navigation react-datepicker__navigation--next"
+                  type="button"
+                >
+                  <span
+                    class="react-datepicker__navigation-icon react-datepicker__navigation-icon--next"
+                  >
+                    Next Month
+                  </span>
+                </button>
+                <div
+                  class="react-datepicker__month-container"
+                >
+                  <div
+                    class="react-datepicker__header "
+                  >
+                    <div
+                      class="react-datepicker__current-month"
+                    >
+                      February 2022
+                    </div>
+                    <div
+                      class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"
+                    />
+                    <div
+                      class="react-datepicker__day-names"
+                    >
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Su
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Mo
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Tu
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        We
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Th
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Fr
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Sa
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="month  2022-02"
+                    class="react-datepicker__month"
+                    role="listbox"
+                  >
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, January 30th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        30
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, January 31st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        31
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 1st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--001"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        1
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 2nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--002"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        2
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 3rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--003"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        3
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 4th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--004"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        4
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 5th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        5
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 6th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        6
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 7th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--007"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        7
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 8th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--008"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        8
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 9th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--009"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        9
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 10th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--010"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        10
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 11th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--011"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        11
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 12th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--012 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        12
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 13th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        13
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 14th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--014"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        14
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 15th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--015"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        15
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 16th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--016"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        16
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 17th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--017"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        17
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 18th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--018"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        18
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 19th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--019 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        19
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 20th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        20
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 21st, 2022"
+                        aria-selected="true"
+                        class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--selected"
+                        role="option"
+                        tabindex="0"
+                      >
+                        21
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 22nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--022"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        22
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 23rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--023"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        23
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 24th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--024"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        24
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 25th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--025"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        25
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 26th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--026 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        26
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 27th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        27
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 28th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--028"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        28
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, March 1st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        1
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, March 2nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        2
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, March 3rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        3
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, March 4th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--004 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        4
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, March 5th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="react-datepicker__tab-loop__end"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="sc-dkPtRN btTqUO"
+          data-testid="calendar-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="sc-bdvvtL hDCVTh"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <g
+              id="XMLID_2_"
+            >
+              <path
+                d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+                id="XMLID_19_"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gsDKAQ kBsdyy"
+    >
+      <div
+        class="react-datepicker-wrapper"
+      >
+        <div
+          class="react-datepicker__input-container"
+        >
+          <input
+            class="react-datepicker-ignore-onclickoutside"
+            data-testid="calendar-picker"
+            type="text"
+            value="02/21/2022"
+          />
+        </div>
+      </div>
+      <div
+        class="react-datepicker__tab-loop"
+      >
+        <div
+          class="react-datepicker__tab-loop__start"
+          tabindex="0"
+        />
+        <div
+          class="react-datepicker-popper"
+          data-placement="bottom-start"
+          style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+        >
+          <div>
+            <div
+              class="react-datepicker"
+            >
+              <div
+                class="react-datepicker__triangle"
+                style="position: absolute; left: 0px; transform: translate(0px, 0px);"
+              />
+              <button
+                aria-label="Previous Month"
+                class="react-datepicker__navigation react-datepicker__navigation--previous"
+                type="button"
+              >
+                <span
+                  class="react-datepicker__navigation-icon react-datepicker__navigation-icon--previous"
+                >
+                  Previous Month
+                </span>
+              </button>
+              <button
+                aria-label="Next Month"
+                class="react-datepicker__navigation react-datepicker__navigation--next"
+                type="button"
+              >
+                <span
+                  class="react-datepicker__navigation-icon react-datepicker__navigation-icon--next"
+                >
+                  Next Month
+                </span>
+              </button>
+              <div
+                class="react-datepicker__month-container"
+              >
+                <div
+                  class="react-datepicker__header "
+                >
+                  <div
+                    class="react-datepicker__current-month"
+                  >
+                    February 2022
+                  </div>
+                  <div
+                    class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"
+                  />
+                  <div
+                    class="react-datepicker__day-names"
+                  >
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Su
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Mo
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Tu
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      We
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Th
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Fr
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Sa
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-label="month  2022-02"
+                  class="react-datepicker__month"
+                  role="listbox"
+                >
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, January 30th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      30
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, January 31st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      31
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 1st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      1
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 2nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      2
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 3rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      3
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 4th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--004"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      4
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 5th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      5
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 6th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      6
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 7th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--007"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      7
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 8th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--008"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      8
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 9th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--009"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      9
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 10th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--010"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      10
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 11th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--011"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      11
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 12th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--012 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      12
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 13th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      13
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 14th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--014"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      14
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 15th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--015"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      15
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 16th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--016"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      16
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 17th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--017"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      17
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 18th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--018"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      18
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 19th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--019 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      19
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 20th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      20
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 21st, 2022"
+                      aria-selected="true"
+                      class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--selected"
+                      role="option"
+                      tabindex="0"
+                    >
+                      21
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 22nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--022"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      22
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 23rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--023"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      23
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 24th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--024"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      24
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 25th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--025"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      25
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 26th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--026 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      26
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 27th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      27
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 28th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--028"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      28
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, March 1st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      1
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, March 2nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      2
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, March 3rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      3
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, March 4th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--004 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      4
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, March 5th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      5
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="react-datepicker__tab-loop__end"
+          tabindex="0"
+        />
+      </div>
+      <div
+        class="sc-dkPtRN btTqUO"
+        data-testid="calendar-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="sc-bdvvtL hDCVTh"
+          id="Layer_1"
+          version="1.1"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <g
+            id="XMLID_2_"
+          >
+            <path
+              d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+              id="XMLID_19_"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`InputDatepicker should show calendar when icon is clicked 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gsDKAQ kWqIMu"
+      >
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="react-datepicker-ignore-onclickoutside"
+              data-testid="calendar-picker"
+              type="text"
+              value="02/21/2022"
+            />
+          </div>
+        </div>
+        <div
+          class="react-datepicker__tab-loop"
+        >
+          <div
+            class="react-datepicker__tab-loop__start"
+            tabindex="0"
+          />
+          <div
+            class="react-datepicker-popper"
+            data-placement="bottom-start"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+          >
+            <div>
+              <div
+                class="react-datepicker"
+              >
+                <div
+                  class="react-datepicker__triangle"
+                  style="position: absolute; left: 0px; transform: translate(0px, 0px);"
+                />
+                <button
+                  aria-label="Previous Month"
+                  class="react-datepicker__navigation react-datepicker__navigation--previous"
+                  type="button"
+                >
+                  <span
+                    class="react-datepicker__navigation-icon react-datepicker__navigation-icon--previous"
+                  >
+                    Previous Month
+                  </span>
+                </button>
+                <button
+                  aria-label="Next Month"
+                  class="react-datepicker__navigation react-datepicker__navigation--next"
+                  type="button"
+                >
+                  <span
+                    class="react-datepicker__navigation-icon react-datepicker__navigation-icon--next"
+                  >
+                    Next Month
+                  </span>
+                </button>
+                <div
+                  class="react-datepicker__month-container"
+                >
+                  <div
+                    class="react-datepicker__header "
+                  >
+                    <div
+                      class="react-datepicker__current-month"
+                    >
+                      February 2022
+                    </div>
+                    <div
+                      class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"
+                    />
+                    <div
+                      class="react-datepicker__day-names"
+                    >
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Su
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Mo
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Tu
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        We
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Th
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Fr
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Sa
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="month  2022-02"
+                    class="react-datepicker__month"
+                    role="listbox"
+                  >
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, January 30th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        30
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, January 31st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        31
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 1st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--001"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        1
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 2nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--002"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        2
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 3rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--003"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        3
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 4th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--004"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        4
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 5th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        5
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 6th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        6
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 7th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--007"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        7
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 8th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--008"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        8
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 9th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--009"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        9
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 10th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--010"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        10
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 11th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--011"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        11
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 12th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--012 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        12
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 13th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        13
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 14th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--014"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        14
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 15th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--015"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        15
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 16th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--016"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        16
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 17th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--017"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        17
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 18th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--018"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        18
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 19th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--019 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        19
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 20th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        20
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 21st, 2022"
+                        aria-selected="true"
+                        class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--selected"
+                        role="option"
+                        tabindex="0"
+                      >
+                        21
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 22nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--022"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        22
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 23rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--023"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        23
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 24th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--024"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        24
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 25th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--025"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        25
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 26th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--026 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        26
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 27th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        27
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 28th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--028"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        28
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, March 1st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        1
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, March 2nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        2
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, March 3rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        3
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, March 4th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--004 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        4
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, March 5th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="react-datepicker__tab-loop__end"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="sc-dkPtRN btTqUO"
+          data-testid="calendar-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="sc-bdvvtL hDCVTh"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <g
+              id="XMLID_2_"
+            >
+              <path
+                d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+                id="XMLID_19_"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gsDKAQ kWqIMu"
+    >
+      <div
+        class="react-datepicker-wrapper"
+      >
+        <div
+          class="react-datepicker__input-container"
+        >
+          <input
+            class="react-datepicker-ignore-onclickoutside"
+            data-testid="calendar-picker"
+            type="text"
+            value="02/21/2022"
+          />
+        </div>
+      </div>
+      <div
+        class="react-datepicker__tab-loop"
+      >
+        <div
+          class="react-datepicker__tab-loop__start"
+          tabindex="0"
+        />
+        <div
+          class="react-datepicker-popper"
+          data-placement="bottom-start"
+          style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+        >
+          <div>
+            <div
+              class="react-datepicker"
+            >
+              <div
+                class="react-datepicker__triangle"
+                style="position: absolute; left: 0px; transform: translate(0px, 0px);"
+              />
+              <button
+                aria-label="Previous Month"
+                class="react-datepicker__navigation react-datepicker__navigation--previous"
+                type="button"
+              >
+                <span
+                  class="react-datepicker__navigation-icon react-datepicker__navigation-icon--previous"
+                >
+                  Previous Month
+                </span>
+              </button>
+              <button
+                aria-label="Next Month"
+                class="react-datepicker__navigation react-datepicker__navigation--next"
+                type="button"
+              >
+                <span
+                  class="react-datepicker__navigation-icon react-datepicker__navigation-icon--next"
+                >
+                  Next Month
+                </span>
+              </button>
+              <div
+                class="react-datepicker__month-container"
+              >
+                <div
+                  class="react-datepicker__header "
+                >
+                  <div
+                    class="react-datepicker__current-month"
+                  >
+                    February 2022
+                  </div>
+                  <div
+                    class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"
+                  />
+                  <div
+                    class="react-datepicker__day-names"
+                  >
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Su
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Mo
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Tu
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      We
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Th
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Fr
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Sa
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-label="month  2022-02"
+                  class="react-datepicker__month"
+                  role="listbox"
+                >
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, January 30th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      30
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, January 31st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      31
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 1st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      1
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 2nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      2
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 3rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      3
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 4th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--004"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      4
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 5th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      5
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 6th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      6
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 7th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--007"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      7
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 8th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--008"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      8
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 9th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--009"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      9
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 10th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--010"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      10
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 11th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--011"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      11
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 12th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--012 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      12
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 13th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      13
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 14th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--014"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      14
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 15th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--015"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      15
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 16th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--016"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      16
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 17th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--017"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      17
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 18th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--018"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      18
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 19th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--019 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      19
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 20th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      20
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 21st, 2022"
+                      aria-selected="true"
+                      class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--selected"
+                      role="option"
+                      tabindex="0"
+                    >
+                      21
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 22nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--022"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      22
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 23rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--023"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      23
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 24th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--024"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      24
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 25th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--025"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      25
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 26th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--026 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      26
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 27th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      27
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 28th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--028"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      28
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, March 1st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      1
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, March 2nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      2
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, March 3rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      3
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, March 4th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--004 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      4
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, March 5th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      5
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="react-datepicker__tab-loop__end"
+          tabindex="0"
+        />
+      </div>
+      <div
+        class="sc-dkPtRN btTqUO"
+        data-testid="calendar-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="sc-bdvvtL hDCVTh"
+          id="Layer_1"
+          version="1.1"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <g
+            id="XMLID_2_"
+          >
+            <path
+              d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+              id="XMLID_19_"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`InputDatepicker should show focused styling when focused 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gsDKAQ kWqIMu"
+      >
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="react-datepicker-ignore-onclickoutside"
+              data-testid="calendar-picker"
+              type="text"
+              value="02/21/2022"
+            />
+          </div>
+        </div>
+        <div
+          class="react-datepicker__tab-loop"
+        >
+          <div
+            class="react-datepicker__tab-loop__start"
+            tabindex="0"
+          />
+          <div
+            class="react-datepicker-popper"
+            data-placement="bottom-start"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+          >
+            <div>
+              <div
+                class="react-datepicker"
+              >
+                <div
+                  class="react-datepicker__triangle"
+                  style="position: absolute; left: 0px; transform: translate(0px, 0px);"
+                />
+                <button
+                  aria-label="Previous Month"
+                  class="react-datepicker__navigation react-datepicker__navigation--previous"
+                  type="button"
+                >
+                  <span
+                    class="react-datepicker__navigation-icon react-datepicker__navigation-icon--previous"
+                  >
+                    Previous Month
+                  </span>
+                </button>
+                <button
+                  aria-label="Next Month"
+                  class="react-datepicker__navigation react-datepicker__navigation--next"
+                  type="button"
+                >
+                  <span
+                    class="react-datepicker__navigation-icon react-datepicker__navigation-icon--next"
+                  >
+                    Next Month
+                  </span>
+                </button>
+                <div
+                  class="react-datepicker__month-container"
+                >
+                  <div
+                    class="react-datepicker__header "
+                  >
+                    <div
+                      class="react-datepicker__current-month"
+                    >
+                      February 2022
+                    </div>
+                    <div
+                      class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"
+                    />
+                    <div
+                      class="react-datepicker__day-names"
+                    >
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Su
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Mo
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Tu
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        We
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Th
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Fr
+                      </div>
+                      <div
+                        class="react-datepicker__day-name"
+                      >
+                        Sa
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="month  2022-02"
+                    class="react-datepicker__month"
+                    role="listbox"
+                  >
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, January 30th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        30
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, January 31st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        31
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 1st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--001"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        1
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 2nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--002"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        2
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 3rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--003"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        3
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 4th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--004"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        4
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 5th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        5
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 6th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        6
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 7th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--007"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        7
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 8th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--008"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        8
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 9th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--009"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        9
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 10th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--010"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        10
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 11th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--011"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        11
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 12th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--012 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        12
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 13th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        13
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 14th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--014"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        14
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 15th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--015"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        15
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 16th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--016"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        16
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 17th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--017"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        17
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 18th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--018"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        18
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 19th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--019 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        19
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 20th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        20
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 21st, 2022"
+                        aria-selected="true"
+                        class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--selected"
+                        role="option"
+                        tabindex="0"
+                      >
+                        21
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, February 22nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--022"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        22
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, February 23rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--023"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        23
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, February 24th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--024"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        24
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, February 25th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--025"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        25
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, February 26th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--026 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        26
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__week"
+                    >
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Sunday, February 27th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        27
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Monday, February 28th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--028"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        28
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Tuesday, March 1st, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        1
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Wednesday, March 2nd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        2
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Thursday, March 3rd, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        3
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Friday, March 4th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--004 react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        4
+                      </div>
+                      <div
+                        aria-disabled="false"
+                        aria-label="Choose Saturday, March 5th, 2022"
+                        aria-selected="false"
+                        class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="react-datepicker__tab-loop__end"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="sc-dkPtRN btTqUO"
+          data-testid="calendar-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="sc-bdvvtL hDCVTh"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <g
+              id="XMLID_2_"
+            >
+              <path
+                d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+                id="XMLID_19_"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gsDKAQ kWqIMu"
+    >
+      <div
+        class="react-datepicker-wrapper"
+      >
+        <div
+          class="react-datepicker__input-container"
+        >
+          <input
+            class="react-datepicker-ignore-onclickoutside"
+            data-testid="calendar-picker"
+            type="text"
+            value="02/21/2022"
+          />
+        </div>
+      </div>
+      <div
+        class="react-datepicker__tab-loop"
+      >
+        <div
+          class="react-datepicker__tab-loop__start"
+          tabindex="0"
+        />
+        <div
+          class="react-datepicker-popper"
+          data-placement="bottom-start"
+          style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+        >
+          <div>
+            <div
+              class="react-datepicker"
+            >
+              <div
+                class="react-datepicker__triangle"
+                style="position: absolute; left: 0px; transform: translate(0px, 0px);"
+              />
+              <button
+                aria-label="Previous Month"
+                class="react-datepicker__navigation react-datepicker__navigation--previous"
+                type="button"
+              >
+                <span
+                  class="react-datepicker__navigation-icon react-datepicker__navigation-icon--previous"
+                >
+                  Previous Month
+                </span>
+              </button>
+              <button
+                aria-label="Next Month"
+                class="react-datepicker__navigation react-datepicker__navigation--next"
+                type="button"
+              >
+                <span
+                  class="react-datepicker__navigation-icon react-datepicker__navigation-icon--next"
+                >
+                  Next Month
+                </span>
+              </button>
+              <div
+                class="react-datepicker__month-container"
+              >
+                <div
+                  class="react-datepicker__header "
+                >
+                  <div
+                    class="react-datepicker__current-month"
+                  >
+                    February 2022
+                  </div>
+                  <div
+                    class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"
+                  />
+                  <div
+                    class="react-datepicker__day-names"
+                  >
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Su
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Mo
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Tu
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      We
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Th
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Fr
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      Sa
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-label="month  2022-02"
+                  class="react-datepicker__month"
+                  role="listbox"
+                >
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, January 30th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      30
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, January 31st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      31
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 1st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      1
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 2nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      2
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 3rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      3
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 4th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--004"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      4
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 5th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      5
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 6th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      6
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 7th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--007"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      7
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 8th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--008"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      8
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 9th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--009"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      9
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 10th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--010"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      10
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 11th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--011"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      11
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 12th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--012 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      12
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 13th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      13
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 14th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--014"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      14
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 15th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--015"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      15
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 16th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--016"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      16
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 17th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--017"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      17
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 18th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--018"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      18
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 19th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--019 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      19
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 20th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      20
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 21st, 2022"
+                      aria-selected="true"
+                      class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--selected"
+                      role="option"
+                      tabindex="0"
+                    >
+                      21
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, February 22nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--022"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      22
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, February 23rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--023"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      23
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 24th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--024"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      24
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 25th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--025"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      25
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 26th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--026 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      26
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, February 27th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      27
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, February 28th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--028"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      28
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, March 1st, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      1
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, March 2nd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      2
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, March 3rd, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      3
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, March 4th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--004 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      4
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, March 5th, 2022"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      5
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="react-datepicker__tab-loop__end"
+          tabindex="0"
+        />
+      </div>
+      <div
+        class="sc-dkPtRN btTqUO"
+        data-testid="calendar-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="sc-bdvvtL hDCVTh"
+          id="Layer_1"
+          version="1.1"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <g
+            id="XMLID_2_"
+          >
+            <path
+              d="M55.6,474.9h81.9v-81.9H55.6V474.9z M156.4,474.9h91.4v-81.9h-91.4V474.9z M55.6,374.9h81.9   v-91.4H55.6V374.9z M156.4,374.9h91.4v-91.4h-91.4V374.9z M55.6,265.5h81.9v-81.9H55.6V265.5z M265.9,474.9h91.4v-81.9h-91.4V474.9   z M156.4,265.5h91.4v-81.9h-91.4V265.5z M375.4,474.9h81.9v-81.9h-81.9C375.4,393.1,375.4,474.9,375.4,474.9z M265.9,374.9h91.4   v-91.4h-91.4V374.9z M165.1,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6c-1.7,1.7-2.6,4.3-2.6,6   v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C164.2,132.7,165.1,131,165.1,128.4z M375.4,374.9h81.9   v-91.4h-81.9C375.4,283.6,375.4,374.9,375.4,374.9z M265.9,265.5h91.4v-81.9h-91.4V265.5z M375.4,265.5h81.9v-81.9h-81.9   C375.4,183.6,375.4,265.5,375.4,265.5z M384,128.4V46.5c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6   c-1.7,1.7-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C383.1,132.7,384,131,384,128.4z    M493.5,110.3v364.6c0,9.5-3.4,18.1-11.2,25.9S466.7,512,456.4,512H55.6c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9   V110.3c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1V45.7c0-12.9,4.3-23.3,13.8-31.9C115.1,5.2,126.3,0,138.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5V45.7c0-12.9,4.3-23.3,13.8-31.9C334,5.2,345.2,0,357.3,0h18.1   c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h36.2c9.5,0,18.1,3.4,25.9,11.2C490,91.4,493.5,100,493.5,110.3z"
+              id="XMLID_19_"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
