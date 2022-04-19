@@ -6,7 +6,7 @@ import {
 
 export type PopoverProps = {
   children?: ReactNode;
-  content?: string;
+  content?: ReactNode | string;
   show: boolean;
   position?: string;
   color?: string;
