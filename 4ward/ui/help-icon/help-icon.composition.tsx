@@ -1,8 +1,6 @@
 import React from 'react';
 import { HelpIcon } from './help-icon';
 
-export const BasicHelpIcon = () => {
-  return (
-    <HelpIcon>hello world!</HelpIcon>
-  );
-}
+export const BasicHelpIcon = () => (
+  <HelpIcon>Hello World!</HelpIcon>
+);

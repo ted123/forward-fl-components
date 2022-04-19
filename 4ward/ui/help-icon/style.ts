@@ -4,9 +4,9 @@ export const Button = styled.button<{iconColor: string}>`
     background: none;
     border: none;
 
-    ${({iconColor}) => `
+    ${({ iconColor }) => `
         svg {
             fill: ${iconColor};
         }
     `}
-`
+`;
